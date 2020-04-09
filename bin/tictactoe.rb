@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 load 'lib/board.rb'
 load 'lib/player.rb'
 load 'lib/game.rb'
