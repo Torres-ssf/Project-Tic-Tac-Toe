@@ -2,7 +2,7 @@ linters:
   rubocop:
     display_cop_names: true
     config: "./rubocop.yml"
-    
+
 files:
   ignore:
     - "Guardfile"
@@ -11,3 +11,6 @@ files:
 
 AllCops:
   NewCops: disable
+
+Style/ANewCop:
+  Enabled: false
