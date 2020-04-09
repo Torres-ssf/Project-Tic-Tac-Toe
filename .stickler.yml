@@ -7,3 +7,5 @@ files:
     - "Guardfile"
     - "Rakefile"
     - "node_modules/**/*"
+AllCops:
+  EnabledByDefault: true
