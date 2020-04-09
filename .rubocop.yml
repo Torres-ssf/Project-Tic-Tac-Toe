@@ -19,6 +19,12 @@ Metrics/BlockLength:
   Max: 30
 
 
+Lint/RaiseException:
+  Enabled: false
+Lint/StructNewOverride:
+  Enabled: false
+
+
 Style/Documentation:
   Enabled: false
 Style/ClassAndModuleChildren:
@@ -31,6 +37,13 @@ Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
+Style/HashEachMethods:
+  Enabled: false
+Style/HashTransformKeys:
+  Enabled: false
+Style/HashTransformValues:
+  Enabled: false
+
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
